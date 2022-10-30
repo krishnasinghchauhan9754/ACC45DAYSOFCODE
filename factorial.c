@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() {
+    int fact=1,n;
+
+    printf("enter a number");
+    scanf("%d",&n);
+
+    while(n>0)
+    {
+        fact*=n;
+        n--;
+    }
+    printf("%d",fact);
+    return 0;
+}
