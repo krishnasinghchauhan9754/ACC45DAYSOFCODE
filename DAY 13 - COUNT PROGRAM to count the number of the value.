@@ -1,6 +1,4 @@
-//7.wite a program to count a number.
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
    int n,count=0;
